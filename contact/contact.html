@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header class="container fixed top-0 left-0 w-full z-50 bg-white shadow-lg ">
+    <!-- NAVBAR -->
+    <nav class="w-full bg-white shadow-sm px-10 py-6  flex items-center justify-between">
+
+      <!-- LEFT LOGO -->
+      <div class="text-2xl font-bold text-teal-700">
+        KSD
+      </div>
+
+      <!-- RIGHT MENU -->
+      <div class="flex items-center gap-12 text-gray-600 font-medium">
+
+        <!-- HOME -->
+        <a href="/index.html" class="flex items-center gap-2 text-teal-600">
+          <!-- ICON -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.25 12 11.204 3.046a.75.75 0 0 1 1.092 0L21.75 12M4.5 10.5v9a.75.75 0 0 0 .75.75h4.5v-6h3v6h4.5a.75.75 0 0 0 .75-.75v-9" />
+          </svg>
+        Home
+        </a>
+
+        <!-- SERVICES -->
+
+        <div class="relative group">
+          <div class="flex items-center gap-1 cursor-pointer hover:text-teal-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
+
+            <a href="/services/service.html">services</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </div>
+
+          <!-- DROPDOWN -->
+          <div class="absolute left-0 top-full w-64 bg-white shadow-lg rounded-lg 
+                        opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                        transition duration-500">
+
+
+            <a href="/services/technology-consulting.html" class="block px-4 py-3 hover:bg-teal-100">Technology Consulting</a>
+            <a href="/services/business-consulting.html" class="block px-4 py-2 hover:bg-teal-100">Business Consulting</a>
+
+          </div>
+
+
+        </div>
+        <!-- ABOUT -->
+        <div class="relative group">
+          <div class="flex items-center gap-1 cursor-pointer hover:text-teal-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+
+           <a href="/about/about.html">About</a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </div>
+
+          <!-- DROPDOWN -->
+          <div class="absolute left-0 top-full w-40 bg-white shadow-lg rounded-lg 
+                        opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                        transition duration-300">
+
+            <a href="/about/career.html" class="block px-4 py-2 hover:bg-teal-100">Career</a>
+            <a href="/about/testimonials.html" class="block px-4 py-2 hover:bg-teal-100">Testimonials</a>
+            <a href="/about/FAQS.html" class="block px-4 py-2 hover:bg-teal-100">FAQs</a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- PORTFOLIO -->
+
+        <div class="relative group">
+          <div class="flex items-center gap-1 cursor-pointer hover:text-teal-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-5">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+            </svg>
+            <a href="/portfolio/portfolio.html">Portfolio</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </div>
+
+          <!-- DROPDOWN -->
+          <div class="absolute left-0 top-full w-40 bg-white shadow-lg rounded-lg 
+                        opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                        transition duration-300">
+
+            <a href="/portfolio/case.html" class="block px-2 py-2 hover:bg-teal-100">Case Studies</a>
+            <a href="/portfolio/blog.html" class="block px-2 py-2 hover:bg-teal-100">Blog</a>
+
+
+          </div>
+        </div>
+        <!-- CONTACT -->
+        <a href="/contact/contact.html" class="flex items-center gap-2 hover:text-teal-600">
+          <!-- ICON -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+          </svg>
+             Contact
+        </a>
+
+      </div>
+
+    </nav>
+  </header>
+
+
+
+
+    <div class="">
+
+        <div>
+            <h1 class="text-center text-4xl text-green-500 font-bold mt-10">Get in Touch</h1>
+            <p class="text-center text-lg mt-5">Ready to transform your business? Let's start a conversation.</p>
+
+        </div>
+
+
+        <div class="full w-full mt-16 flex gap-10 justify-center ">
+
+            <!-- Contact Form -->
+
+
+            <!-- left -->
+            <div class="mb-16 flex justify-center">
+
+                <div class="w-[600px] border rounded-xl shadow-lg p-8">
+
+                    <!-- TITLE -->
+                    <h1 class="text-center text-3xl text-teal-700 font-bold mb-2">
+                        Contact Our Team
+                    </h1>
+                    <p class="text-center text-gray-600 mb-6">
+                        We're here to help you transform your business.
+                    </p>
+
+                    <!-- NAME + EMAIL -->
+                    <div class="flex gap-4 mb-4">
+
+                        <div class="w-1/2">
+                            <label class="block mb-1">Full Name</label>
+                            <input id="name" type="text" placeholder="John Doe"
+                                class="w-full border rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-teal-500">
+                        </div>
+
+                        <div class="w-1/2">
+                            <label class="block mb-1">Email Address</label>
+                            <input id="email" type="email" placeholder="john@example.com"
+                                class="w-full border rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-teal-500">
+                        </div>
+
+                    </div>
+
+                    <!-- PHONE NUMBER -->
+                    <div class="mb-4">
+                        <label class="block mb-1">Phone Number (Optional)</label>
+
+                        <div class="flex items-center border rounded-lg overflow-hidden">
+
+                            <!-- FLAG + CODE -->
+                            <select class="px-3 py-2 bg-gray-100 outline-none cursor-pointer">
+
+
+                                <option value="+1">🇺🇸  (+1)</option>
+                                <option value="+91" selected>🇮🇳  (+91)</option>
+                                <option value="+44">🇬🇧 (+44)</option>
+                                <option value="+1">🇨🇦 (+1)</option>
+                                <option value="+61">🇦🇺 (+61)</option>
+                                <option value="+971">🇦🇪  (+971)</option>
+                                <option value="+81">🇯🇵 (+81)</option>
+                                <option value="+49">🇩🇪 (+49)</option>
+                                <option value="+33">🇫🇷 (+33)</option>
+                                <option value="+39">🇮🇹 (+39)</option>
+                                <option value="+86">🇨🇳 (+86)</option>
+                                <option value="+7">🇷🇺 (+7)</option>
+                                <option value="+34">🇪🇸 (+34)</option>
+                                <option value="+55">🇧🇷 (+55)</option>
+                                <option value="+27">🇿🇦 (+27)</option>
+
+                            </select>
+
+                            <!-- INPUT -->
+                            <input id="phone" type="tel" class="w-full px-3 py-2 outline-none" placeholder="Enter phone number">
+                        </div>
+                    </div>
+
+                    <!-- MESSAGE -->
+                    <div class="mb-6">
+                        <label class="block mb-1">Your Message</label>
+                        <textarea
+                        id="message"
+                            class="w-full border rounded-lg px-3 py-2 h-32 outline-none focus:ring-2 focus:ring-teal-500"
+                            placeholder="Tell us about your business needs..."></textarea>
+                    </div>
+
+                    <!-- BUTTON -->
+                    <button
+                    type="button"
+                        class="w-full bg-teal-600 text-white py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-teal-700 transition"
+                        onclick="sendToWhatsApp()">
+
+                        <!-- ICON -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3 3l18 9-18 9 3-9Z" />
+                        </svg>
+
+                        Send Message
+                    </button>
+
+                </div>
+            </div>
+         
+
+            <!-- right -->
+
+            <div class="right border-2 px-5  w-1/3  ">
+
+
+                <div class="py-6">
+
+                    <h1 class="text-start text-2xl text-green-500 font-bold">Contact Information</h1>
+                    <p class="text-start text-lg font-bold py-3">Address</p>
+                    <p class="text-start text-lg mx-auto">Omaxe Marketing & Sales, OMAXE WORLD STREET, Ashray Bhavan
+                        Road, Sector 79, Faridabad, Haryana 121004</p>
+
+                    <p class="text-start text-lg font-bold pt-5">Phone</p>
+                    <p class="text-start text-md">(+91) 1234567890</p>
+
+                    <p class="text-start text-lg font-bold pt-5">Email</p>
+                    <p class="text-start text-md">info@omaxe.com</p>
+
+
+
+                    <div class="mt-6">
+                        <iframe class="w-full h-[300px] rounded-xl border"
+                            src="https://www.google.com/maps?q=https://maps.app.goo.gl/q7azgEZxc87R5AwP9Faridabad&output=embed"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+</body>
+<script src="../app.js"></script>
+</html>

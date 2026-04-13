@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* .container {
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.navbar {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 800;
+   
+
+}
+
+.nav-right ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.main-container {
+    color: black;
+    margin-top: 100px;
+} */
+
+/* .buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+} */
+/* 
+.buttons a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding:10px ;
+    border-radius: 10px;
+    color: red;
+  
+
+} */
+
+/* .main-container .bottoms {
+    font-weight: 900;
+    margin-top: 100px;
+  text-align: center;
+}
+.main-container .bottoms i{
+    font-weight: 900;
+    margin-top: 100px;
+  text-align: center;
+ padding: 20px;
+   
+} */
+/* .next-page{
+    margin-top: 50px;
+    background-color: rgb(235, 239, 243);
+
+} */
+/* 
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 10px;
+} */
+
+/* .next-page .card{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin-top: 50px;
+  
+} */
+/* .third-page{
+    margin-top: 100px;
+    text-align: center;
+   border: 1px solid black;
+   
+   
+
+} */
+
+/* .div-cards{
+
+    padding-top: 50px;
+}
+.bottom-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.div-cards .bottom-cards .card1{
+
+     height: 200px;
+     width: 200px;
+     border: 2px solid black;
+    
+} */
+/* .discover{
+    height:100px;
+} */
+
